@@ -159,3 +159,60 @@
 .card-info:hover i, .card-info:hover h5, .card-info:hover p{
     color: #fff;
 }
+/* **************************Team-section starts************************ */
+.team{
+    padding: 87px 100px;
+}
+.team-info h2{
+    font-size: 27px;
+    margin-top: 24px;
+}
+.team-info h4{
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+.team-info p{
+    font-size: 14px;
+    width: 485px;
+    margin-bottom: 55px;
+}
+/* ================= Carousel Extra CSS starts ================= */
+#team-pictures{
+    width: 560px;
+}
+.item img{
+    object-fit: cover;
+}
+#team-pictures .owl-dots{
+    background-color: #ff7d8c;
+    width: 145px;
+    margin: 40px auto;
+    padding: 12px 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #fff;
+    width: 14px;
+    height: 14px;
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #ff7d8c;
+    border: 5px solid #fff;
+}
+/* ================= Carousel Extra CSS Ends ================= */
+
+.social-icons a i{
+    width: 34px;
+    height: 34px;
+    background-color: #ff517b;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.social-icons a i:hover{
+    transform: scale(1.3);
+}
