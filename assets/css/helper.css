@@ -7,6 +7,9 @@
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 .row, .row::after, .row::before
 {
     clear: both;
@@ -21,9 +24,12 @@ a{
     width: 1180px;
     margin: 0 auto;
 }
-.col-3, .col-4, .col-6, .col-12{
+.col-2, .col-3, .col-4, .col-6, .col-9, .col-10, .col-12{
     float: left;
     padding: 0 15px;
+}
+.col-2{
+    width: calc((100% * 2) / 12);
 }
 .col-3{
     width: 25%;
@@ -34,11 +40,23 @@ a{
 .col-6{
     width: 50%;
 }
+.col-9{
+    width: calc((100% * 9) / 12);
+}
+.col-10{
+    width: calc((100% * 10) / 12);
+}
 .col-12{
     width: 100%;
 }
 .text-center{
     text-align: center;
+}
+.mb-55{
+    margin-bottom: 55px;
+}
+.mb-35{
+    margin-bottom: 35px;
 }
 .mb-30{
     margin-bottom: 30px;

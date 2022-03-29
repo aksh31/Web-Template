@@ -226,3 +226,113 @@
     font-weight: bold;
     margin-bottom: 12px;
 }
+/* ************************** Manager-section starts ************************ */
+
+.manager{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0,0.9)), url(../images/manager.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 535px;
+    padding: 165px 0;
+}
+.manager-info i{
+    color: #efefef;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.manager-info p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #efefef;
+    width: 633px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.manager-info h4, .manager-info h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #efefef;
+}
+.manager-info h5{
+    color: #ff517b;
+}
+/* ************************** Features-section starts ************************ */
+
+.features{
+    padding: 78px 0 100px;
+}
+.features-heading{
+    margin-bottom: 82px;
+}
+.features-heading h3{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+    color: #101010;
+    margin-bottom: 16px;
+}
+.features-heading p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #101010;
+}
+.features-img{
+    position: relative;
+}
+.features-img img:last-child{
+    position: absolute;
+    left: 32%;
+    top: -10px;
+}
+.features-icon{
+    width: 56px;
+    height: 56px;
+    border: 5px solid #eff3f7;
+    border-radius: 50%;
+    padding: 14px;
+}
+.features-icon i{
+    font-size: 18px;
+    color: #101010;
+}
+.features-icon:hover i{
+    color: #fff;
+}
+.features-icon:hover{
+    background-color: #ff517b;
+}
+.features-text{
+    margin-top: 15px;
+}
+.features-text h4, .features-text h5{
+    font-size: 14px;
+    font-weight: bold;
+    color: #101010;
+    margin-bottom: 9px;
+}
+.features-text h5{
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.features-text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #101010;
+}
+/* ************************** Get-In-Touch-section starts ************************ */
+.get-In-Touch{
+    padding: 68px 0 140px;
+    background-color: #f7f7f7;
+}
+.tab-navBar li{
+    display: inline-block;
+    margin: 0 23px;
+}
+.tab-navBar li a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #4f4f4f;
+    text-transform: uppercase;
+    padding: 9px;
+}
