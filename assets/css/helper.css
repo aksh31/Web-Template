@@ -10,7 +10,7 @@ a{
 ul{
     list-style: none;
 }
-.row, .row::after, .row::before
+.row, .row::after, .row::before, .tab-content
 {
     clear: both;
     display: table;

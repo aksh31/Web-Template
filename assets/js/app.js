@@ -16,6 +16,21 @@ $(document).ready(function(){
         //     }
         // }
     })
+
+
+    // $(".tab").on("click", function(){
+    //     $(".tab .tab-details").removeClass("active");
+    // })
+
+
+
+
+    $('.tab').on("click", function(){
+        var categoryId = $(this).data("id");
+        $('.tab, .tab-details').removeClass("active");
+        $(this).addClass("active");
+        $("#" + categoryId).addClass("active");
+    })
 })
 
 $(document).ready(function(){
