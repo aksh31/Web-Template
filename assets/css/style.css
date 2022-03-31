@@ -388,3 +388,50 @@
 .tab-content .active{
     display: block;
 }
+/* ************************** Graphics-section starts ************************ */
+
+.graphics{
+    padding: 130px 0 140px;
+}
+.graphics-nav{
+    width: 448px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 7px 0px rgb(0 0 0 / 18%);
+    border-radius: 25px;
+    padding: 21px 6px;
+    margin-bottom: 48px;
+}
+.graphics-nav li{
+    display: inline-block;
+    margin:0 9px;
+}
+.graphics-nav li a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #314a5d;
+    padding:9px 13px;
+    border-radius: 40px;
+    transition: all 0.5s ease-in-out;
+}
+.graphics-nav li a:hover, .graphics-nav li a.active{
+    background-color: #ff517b;
+    color: #fff;
+}
+.tab-img{
+    width: 270px;
+    height: 270px;
+    display: inline-block;
+}
+.tab-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.graphics-tabs .graphics-imgs{
+    display: none;
+}
+.graphics-tabs .active{
+    display: block;
+}
+/* ************************** Get-In-Touch-section starts ************************ */

@@ -31,6 +31,13 @@ $(document).ready(function(){
         $(this).addClass("active");
         $("#" + categoryId).addClass("active");
     })
+
+    $('.graph').on("click", function(){
+        var dataId = $(this).data("id");
+        $('.graph, .graphics-imgs').removeClass("active");
+        $(this).addClass("active");
+        $("#" + dataId).addClass("active");
+    })
 })
 
 $(document).ready(function(){
