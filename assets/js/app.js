@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $('#owl-team').owlCarousel({
         loop:true,
         margin:18,
         items:2,
@@ -18,9 +18,24 @@ $(document).ready(function(){
     })
 
 
-    // $(".tab").on("click", function(){
-    //     $(".tab .tab-details").removeClass("active");
-    // })
+    $('#owl-client').owlCarousel({
+        loop:true,
+        margin:18,
+        items:6,
+        nav:false,
+        pagignation:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6
+            }
+        }
+    })
 
 
 

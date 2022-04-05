@@ -10,6 +10,9 @@ a{
 ul{
     list-style: none;
 }
+i{
+    cursor: pointer;
+}
 .row, .row::after, .row::before, .tab-content
 {
     clear: both;
@@ -24,7 +27,7 @@ ul{
     width: 1180px;
     margin: 0 auto;
 }
-.col-2, .col-3, .col-4, .col-6, .col-9, .col-10, .col-12{
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-9, .col-10, .col-12{
     float: left;
     padding: 0 15px;
 }
@@ -37,8 +40,14 @@ ul{
 .col-4{
     width: calc((100% * 4) / 12);
 }
+.col-5{
+    width: calc((100% * 5) / 12);
+}
 .col-6{
     width: 50%;
+}
+.col-7{
+    width: calc((100% * 7) / 12);
 }
 .col-9{
     width: calc((100% * 9) / 12);
@@ -60,5 +69,8 @@ ul{
 }
 .mb-30{
     margin-bottom: 30px;
+}
+button{
+    cursor: pointer;
 }
 
