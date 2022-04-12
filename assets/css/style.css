@@ -622,7 +622,7 @@
     background-color: #929492;
     border: 0;
 }
-#owl-client.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+#owl-client.owl-theme .owl-dots .owl-dot.active span, #owl-client.owl-theme .owl-dots .owl-dot:hover span{
     background-color: #212021;
     border: 0;
 }
@@ -696,14 +696,12 @@
     color: #fff;
     text-transform: uppercase;
 }
-/* ************************** Keep-in-Touch-section starts ************************ */
+/* ************************** Form-section starts ************************ */
 
-.form-section{
-    padding-bottom: 95px;
-}
 .form-info, .contact-info{
     padding: 57px 30px 52px;
-    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px 6px rgb(0 0 0 / 25%);
     background-color: #fff;
     transform: translateY(-145px);
 }
@@ -722,4 +720,92 @@
 .contact-info{
     padding: 50px 30px 50px;
     background-color: #ff517b;
+    color: #fff;
+}
+input, textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 16px;
+    border-radius: 25px;
+    border: 1px solid #5a5d5a;
+}
+input[type='button']{
+    width:122px;
+    background-color: #fb527a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.contact-info h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 42px;
+}
+.contact-info > p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+.cont-icons i{
+    font-size: 25px;
+}
+.cont-data span{
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.cont-data p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.contact.social-icons a i{
+    border-radius: 25px;
+    margin: 0 5px;
+}
+.contact.social-icons a i.fab.fa-facebook-f {
+    background-color: #4a6dce;
+}
+.contact.social-icons a i.fab.fa-twitter{
+    background-color:#42aaff;
+}
+.contact.social-icons a i.fab.fa-dribbble {
+    background-color: #ff619c;
+}
+.contact.social-icons a i.fab.fa-linkedin-in {
+    background-color: #4275ad;
+}
+/* ************************** MyMap-section starts ************************ */
+
+.myMap iframe{
+    height: 100vh;
+}
+/* ************************** Footer-Expoler-section starts ************************ */
+
+footer{
+    padding: 103px 0 132px;
+    background-color: #212021;
+}
+.explore h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.explore > .social-icons a i {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 20px;
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    margin: 0 9px;
+}
+.explore p {
+    color: #797774;
+    text-transform: uppercase;
+    font-size: 24px;
 }

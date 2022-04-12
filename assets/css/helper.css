@@ -27,9 +27,12 @@ i{
     width: 1180px;
     margin: 0 auto;
 }
-.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-9, .col-10, .col-12{
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-9, .col-10, .col-11, .col-12{
     float: left;
     padding: 0 15px;
+}
+.col-1{
+    width: calc((100% * 1) / 12);
 }
 .col-2{
     width: calc((100% * 2) / 12);
@@ -55,6 +58,9 @@ i{
 .col-10{
     width: calc((100% * 10) / 12);
 }
+.col-11{
+    width: calc((100% * 11) / 12);
+}
 .col-12{
     width: 100%;
 }
@@ -70,7 +76,18 @@ i{
 .mb-30{
     margin-bottom: 30px;
 }
+.mb-18{
+    margin-bottom: 18px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
 button{
     cursor: pointer;
 }
-
+.pl-0{
+    padding-left: 0;
+}
+.pr-0{
+    padding-right: 0;
+}
